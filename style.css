@@ -988,7 +988,7 @@ body {
     margin-left: 20%;
   }
   .icons__home {
-    margin-left: 100px;
+    margin-left: 140px;
   }
   .icons__aboutme {
     margin-left: 2%;
@@ -1147,4 +1147,26 @@ body {
   to {
     background-position: 200% center;
   }
+}
+.footer__container {
+  width: 100%; /* Ensure the footer container takes full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.section-seven {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure the footer section takes full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.connect__icons,
+.list-seven,
+.last-line {
+  width: 100%; /* Ensure these elements take full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  text-align: center; /* Center align text within these elements */
 }
