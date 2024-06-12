@@ -740,6 +740,7 @@ body {
   .section-two__content h1 {
     font-size: 34px;
   }
+
   .section-two {
     margin-top: 0;
     margin-top: 110px;
@@ -986,6 +987,9 @@ body {
     margin-top: 110px;
     margin-left: 20%;
   }
+  .icons__home {
+    margin-left: 100px;
+  }
   .icons__aboutme {
     margin-left: 2%;
   }
@@ -1104,6 +1108,11 @@ body {
 .about__long span {
   color: #4bd3dd;
   animation: h2_span_animation 6s ease-in-out 0s 1000000 normal backwards;
+}
+.footer__container {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  width: 100%; /* Ensure the footer container takes full width */
 }
 
 @keyframes h2_span_animation {
