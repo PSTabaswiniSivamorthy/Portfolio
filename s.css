@@ -207,17 +207,20 @@ nav a:hover {
 }
 
 .about__img {
-  bottom: 80px;
+  bottom: 100px;
   left: 40px;
   position: relative;
   border: 3px solid white;
   border-radius: 2px;
 }
+.about-me__heading {
+  margin-bottom: 10px;
+}
 
 .about-text {
   width: 50%;
-
-  bottom: 98px;
+  transform: rotateX("angle");
+  bottom: 105px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -296,6 +299,7 @@ nav a:hover {
 .section-three__main {
   position: relative;
   margin-top: 70px;
+  margin-right: 20px;
 }
 
 .section-three {
@@ -348,7 +352,7 @@ nav a:hover {
 .box-img {
   animation: skill_image_animation 2s ease 0s 1 normal forwards;
 }
-
+/*  */
 @keyframes skill_image_animation {
   0% {
     opacity: 0;
@@ -1039,8 +1043,7 @@ body {
     left: 90px;
   }
   .section-four__container {
-    width: 400px;
-    height: 50%;
+    width: 420px;
   }
   .section-four__outercontainer {
     width: 100%;
@@ -1072,8 +1075,7 @@ body {
     flex-wrap: wrap;
   }
   .list {
-    width: 250px;
-    height: 300px;
+    width: 300px;
   }
   .section-six__quote {
     display: none;
